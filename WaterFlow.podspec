@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
                    DESC
-	这是一个测试第三方
+		这是一个测试demo描述
   s.homepage     = "http://EXAMPLE/WaterFlow"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -77,9 +77,9 @@ Pod::Spec.new do |s|
   #
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
-  #  
+  #
 
-  s.source       = { :git => "http://EXAMPLE/WaterFlow.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Ying419759006/WaterFlow.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
